@@ -47,3 +47,4 @@ jobs:
             sudo docker run -d --name fayaz1 --restart unless-stopped -p 8000:8000 ${{ env.IMAGE }}:${{ env.VERSION }}
             sudo docker image prune -af
             sudo docker ps --filter name=fayaz1
+
